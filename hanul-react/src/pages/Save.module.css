@@ -1,0 +1,90 @@
+.saveframe {
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    left: 128px;
+    padding-left: 100px;
+}
+
+.icons{
+    color: #B95C37;
+    font-size: 40px;
+    /* display: flex; */
+    width: 1233px;
+    text-align: right;
+}
+
+.icons i {
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.savetitle {
+    width: 622px;
+    height: 120px;
+    left: 100px;
+    top: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+
+.savebox {
+    width: 1233px;
+    height: 818px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.grid_item {
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.folderImg {
+    width: 233px;
+    height: 198px;
+    background: url(../../public/folder.png);
+    cursor: pointer;
+}
+
+.contentpreview {
+    width: 233px;
+    height: 198px;
+    background: #F5D9B6;
+    border-radius: 40px;
+}
+
+.ctext {
+    width: 239px;
+    height: 59px;
+    bottom: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 10px;
+}
