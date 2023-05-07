@@ -29,10 +29,10 @@
 */
 
 .profileImg {
-    background-color: black;
+    background-color: #D9D9D9;
     position: relative;
     display: inline-flex;
-    width: 25%;
+    aspect-ratio: 1 /1;
     height: 80%;
     margin-left: 5%;
     border-radius: 50%;
@@ -40,7 +40,7 @@
 
 .info {
     display: block;
-    margin-left: 5%;
+    margin-left: 3%;
     font-size: 20px;
 }
 
