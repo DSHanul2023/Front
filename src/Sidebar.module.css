@@ -1,0 +1,23 @@
+.sidebar {
+    width: 128px;
+    background: #EFA374;
+    height: 100%;
+    position: fixed;
+}
+.sidebarmenu>ul>li{
+    color:white;
+    font-size: 30px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    height:100%;
+    margin-left:7px;
+}
+.sidebarmenu,
+.sidebarmenu ul,
+.sidebarmenu li,
+.sidebarmenu a {
+    list-style: none;
+    text-decoration: none;
+    margin-top:60px;
+}
