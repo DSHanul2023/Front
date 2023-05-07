@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #F9F4E8;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#root{
+  width:100%;
+  height:100%;
+}
+#bell{
+  padding-top: 250px;
+}
+#usericon{
+  padding-left:40px;
+  padding-top:37px;
+  color: #fff;
+  font-size: 45px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  height:100%;
 }
